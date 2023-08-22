@@ -2,7 +2,7 @@ import axios from 'axios';
 import { Contact } from './types';
 
 const BASE_URL = 'https://disease.sh/v3/covid-19';
-const BASE_URL2 = 'http://localhost:5000';
+const BASE_URL2 = 'https://taiyo-api.onrender.com';
 
 export async function fetchWorldwideData() {
   const response = await fetch(`${BASE_URL}/all`);
